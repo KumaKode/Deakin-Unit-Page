@@ -1,24 +1,112 @@
-
-
 h1 {
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h2 {
   font-size: 25px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h3 {
-  font-family: Arial
+  font-family: Arial;
 }
+
 p {
   font-size: 14px;
-  font-family: Arial
+  font-family: Arial;
 }
 
-div{
-	background-color: darkcyan;
-	text-align: right;
+div {
+  background-color: darkcyan;
+  text-align: right;
 }
 
+/* New Header and Navigation Styles */
+header {
+  background-color: #002A5C;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
 
+header .logo img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #00AEEF;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #005EB8;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url('https://www.deakin.edu.au/__data/assets/image/0010/1127276/Hero_Arts-Humanities_1920x700.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Content Section Styles */
+.content {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+  color: #005EB8;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #002A5C;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Additional Elements for Contact Section */
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
